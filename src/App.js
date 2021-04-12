@@ -1,10 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import List from './List'
 
 function App() {
+  const array = [
+  {id: 1, content: 'firstElement'},
+  {id: 2, content: 'secondElement'},
+  {id: 3, content: 'thirdElement'},
+  ];
   return (
-    <h1>First lab</h1>
-  );
+    <List value = {array}>
+    </List>);
 }
 
 export default App;
